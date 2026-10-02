@@ -1,0 +1,144 @@
+# Custom FOMC Uncertainty Vocabulary (113 terms)
+#
+# Supplements the Loughran-McDonald uncertainty and weak modal
+# categories in constructing the MPUI. Terms were identified through
+# manual reading of FOMC statements across the 2000-2024 sample, on
+# the criterion that they signal conditionality, hedging, forward-
+# looking assessment, or non-committal language in central bank
+# communication.
+#
+# Terms also present in the Loughran-McDonald lists are removed at
+# the deduplication stage; the master lexicon contains 381 unique
+# terms rather than 437.
+#
+# Grouped by category for the ablation analysis in
+# scripts/07_category_ablation.py
+
+# --- Conditionality and hedging (5) ---
+appropriate
+appropriately
+prepared
+flexibility
+flexible
+
+# --- Monitoring and assessment (12) ---
+monitor
+monitoring
+monitors
+assess
+assesses
+assessing
+assessment
+evaluate
+evaluating
+evaluation
+review
+reviewing
+
+# --- Forward-looking uncertainty (21) ---
+evolve
+evolves
+evolving
+prospect
+prospects
+anticipate
+anticipates
+anticipated
+expect
+expects
+expected
+expectation
+expectations
+project
+projects
+projected
+projection
+projections
+forecast
+forecasts
+outlook
+
+# --- Risk language (17) ---
+risk
+risks
+downside
+upside
+headwind
+headwinds
+challenge
+challenges
+challenging
+vulnerable
+vulnerability
+concern
+concerns
+concerned
+caution
+cautious
+cautiously
+
+# --- Conditional commitment (12) ---
+confident
+confidence
+warrant
+warrants
+warranted
+depend
+depends
+depending
+contingent
+contingently
+threshold
+thresholds
+
+# --- Tentative language (22) ---
+gradual
+gradually
+tentative
+tentatively
+modest
+modestly
+moderate
+moderately
+somewhat
+roughly
+approximately
+appear
+appears
+apparent
+seem
+seems
+suggest
+suggests
+suggesting
+indicate
+indicates
+indicating
+
+# --- Unusual conditions (13) ---
+unusual
+unusually
+unprecedented
+elevated
+heightened
+stressed
+stress
+turbulence
+turbulent
+volatile
+volatility
+disruption
+disruptions
+
+# --- Policy path (11) ---
+accommodate
+accommodative
+restrictive
+tighten
+tightening
+ease
+easing
+normalize
+normalise
+normalization
+normalisation
